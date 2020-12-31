@@ -1,0 +1,10 @@
+.pylintrc_local
+*.code-workspace
+*.mypy_cache
+*.ipynb_checkpoints/
+__pycache__
+.cache/
+.tmp/
+data/shapes/
+data/uid_data.pkl
+blender-2.81*/
