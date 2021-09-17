@@ -62,7 +62,7 @@ The shapes are required for rendering. The following command downloads them and 
 ```
 ./download.sh data_raw
 ```
-**If you get error while executing the above command, you can manually download the data using this [link](https://drive.google.com/uc?id=1MSMwnX0znCfgEisj7zJ4ohFWJDrsxeme). After downloading the zip file, you need to extract it and place the extracted `20200223` folder inside the `data` folder.**
+**If you get error while executing the above command, you can manually download the data using this [link](https://drive.google.com/uc?id=1MSMwnX0znCfgEisj7zJ4ohFWJDrsxeme). While using the link, make sure you are logged into your Google Accout. After downloading the zip file, you need to extract it and place the extracted `20200223` folder inside the `data` folder.**
 
 ## Code
 The main script for rendering is `render_scene.py`. The following command can be used to render the entire dataset.
