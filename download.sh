@@ -11,14 +11,14 @@ mkdir tmp
 key="$1"
 case $key in
 	shapes)
-		wgetgdrive 1hOp73YNCI9B1DqUHpf-1liWaHsNRiHzR tmp/shapes.zip
+		wgetgdrive 1B8AKYPhrdmjR2xbgyf2pOilCahBobWRq tmp/shapes.zip
 		unzip -o tmp/shapes.zip
 		mkdir -p data
 		rm -rf data/shapes
 		mv shapes data
     		;;
 	data_raw)
-		wgetgdrive 1qJCrW2iTQiVtKQFiAjVsKP2bci4v941z tmp/20200223_selected.zip
+		wgetgdrive 1ArpgHg8uj90zfpf0ytYDW4S-K9DPLkuI tmp/20200223_selected.zip
 		unzip -o tmp/20200223_selected.zip
 		mkdir -p data
 		mv 20200223 data
